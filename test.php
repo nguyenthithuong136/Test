@@ -302,7 +302,7 @@ function addElement($array, $element, $position) {
        array_unshift($array, $element);
    }return $array;
 }
-$array = array( "H", "U", "N");
+$array = array( "H", "U", "O", "N", "G");
 $element = "T";
 $position = "begin"; // "end"
 $new_array = addElement($array, $element, $position);
